@@ -1,8 +1,9 @@
+#!/bin/bash
 
-echo -e "Building image easy_handeye2:latest"
+echo -e "Building Docker image: UR_easy_handeye2:latest"
 
 DOCKER_BUILDKIT=1 \
-docker build --pull --rm -f ./.docker/Dockerfile \
---build-arg BUILDKIT_INLINE_CACHE=1 \
---target base \
---tag easy_handeye2:latest .
+docker build --pull --rm \
+    -f .docker/Dockerfile \
+    --build-arg BUILDKIT_INLINE_CACHE=1 \
+    --tag UR_easy_handeye2:latest .

@@ -8,7 +8,10 @@ ENV LC_ALL=C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TERM=xterm-256color
 
-RUN apt-get update && apt-get install -y --no-install-recommends\
+# ----------------------------
+# Install base system packages
+# ----------------------------
+RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     curl \
     terminator \
@@ -26,11 +29,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     python3-setuptools \
     python3-vcstool \
     freeglut3-dev \
-    lsb-release gnupg \
+    lsb-release \
+    gnupg \
     libglew-dev \
     libqt5opengl5-dev \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
+# ----------------------------
+# Install Python packages
+# ----------------------------
 RUN pip3 install --no-cache-dir --upgrade pip \
     argcomplete \
     flake8-blind-except \
@@ -50,54 +57,67 @@ RUN pip3 install --no-cache-dir --upgrade pip \
     pydantic==1.10.14 \
     panda \
     matplotlib \
-    rosbags     
+    rosbags
 
-RUN sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list' \
+# ----------------------------
+# Gazebo / Ignition Fortress
+# ----------------------------
+RUN sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" > /etc/apt/sources.list.d/gazebo-stable.list' \
     && wget http://packages.osrfoundation.org/gazebo.key -O - | apt-key add - \
     && apt-get update && apt-get install -y ignition-fortress
 
+# ----------------------------
+# Install ROS 2 packages including MoveIt
+# ----------------------------
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    ros-$ROS_DISTRO-rqt \
-    ros-$ROS_DISTRO-rqt-common-plugins \
-    ros-$ROS_DISTRO-rqt-robot-dashboard \
-    ros-$ROS_DISTRO-rqt-robot-steering \
-    ros-$ROS_DISTRO-rqt-tf-tree \
-    ros-$ROS_DISTRO-image-transport-plugins \
-    ros-$ROS_DISTRO-compressed-image-transport \
-    ros-$ROS_DISTRO-cv-bridge \
-    ros-$ROS_DISTRO-rosbag2-py \
-    ros-$ROS_DISTRO-usb-cam \
-    ros-$ROS_DISTRO-ur \
-    ros-$ROS_DISTRO-rviz2 \
-    ros-$ROS_DISTRO-rmw-cyclonedds-cpp \
-    ros-$ROS_DISTRO-ros-testing \
-    ros-$ROS_DISTRO-ros2bag \
-    ros-$ROS_DISTRO-ign-ros2-control \
-    ros-$ROS_DISTRO-moveit \
-    ros-$ROS_DISTRO-moveit-servo \
-    ros-$ROS_DISTRO-ros-ign-bridge \
-    ros-$ROS_DISTRO-ros-ign-gazebo \
-    ros-$ROS_DISTRO-ament-clang-format \
-    ros-$ROS_DISTRO-moveit-visual-tools \
+    ros-${ROS_DISTRO}-rqt \
+    ros-${ROS_DISTRO}-rqt-common-plugins \
+    ros-${ROS_DISTRO}-rqt-robot-dashboard \
+    ros-${ROS_DISTRO}-rqt-robot-steering \
+    ros-${ROS_DISTRO}-rqt-tf-tree \
+    ros-${ROS_DISTRO}-image-transport-plugins \
+    ros-${ROS_DISTRO}-compressed-image-transport \
+    ros-${ROS_DISTRO}-cv-bridge \
+    ros-${ROS_DISTRO}-rosbag2-py \
+    ros-${ROS_DISTRO}-usb-cam \
+    ros-${ROS_DISTRO}-ur \
+    ros-${ROS_DISTRO}-rviz2 \
+    ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
+    ros-${ROS_DISTRO}-ros-testing \
+    ros-${ROS_DISTRO}-ros2bag \
+    ros-${ROS_DISTRO}-ign-ros2-control \
+    ros-${ROS_DISTRO}-moveit \
+    ros-${ROS_DISTRO}-moveit-servo \
+    ros-${ROS_DISTRO}-ros-ign-bridge \
+    ros-${ROS_DISTRO}-ros-ign-gazebo \
+    ros-${ROS_DISTRO}-ament-clang-format \
+    ros-${ROS_DISTRO}-moveit-visual-tools \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Create workspace
+# ----------------------------
+# Create workspace and copy code
+# ----------------------------
 RUN mkdir -p /dev_ws/src
 WORKDIR /dev_ws
 
-# ✅ Clone the repo directly (replace with your own fork if needed)
-RUN git clone https://github.com/Prottay-Roy-Chowdhury/easy_handeye2.git src/easy_handeye2
+COPY src/ /dev_ws/src/
 
-# Install ROS dependencies
+# ----------------------------
+# Install ROS dependencies via rosdep
+# ----------------------------
 RUN apt-get update && rosdep update && \
     rosdep install --ignore-src --from-paths src -y && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
+# ----------------------------
 # Build workspace
-RUN ["/bin/bash", "-c", "source /opt/ros/$ROS_DISTRO/setup.bash && \
-     colcon build --merge-install --symlink-install --cmake-args '-DCMAKE_BUILD_TYPE=Release'"]
+# ----------------------------
+RUN /bin/bash -c "source /opt/ros/${ROS_DISTRO}/setup.bash && \
+    colcon build --merge-install --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release"
 
-# Copy entrypoint and setup scripts
+# ----------------------------
+# Copy custom entrypoint and setup scripts
+# ----------------------------
 COPY .docker/setup.bash /dev_ws/setup.bash
 RUN chmod +x /dev_ws/setup.bash
 
