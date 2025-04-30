@@ -1,0 +1,243 @@
+[0.008s] Invoking command in '/dev_ws/build/ur_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/moveit2-introduction/ur_commander -DCMAKE_INSTALL_PREFIX=/dev_ws/install
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.263s] -- Detecting CXX compile features
+[0.263s] -- Detecting CXX compile features - done
+[0.265s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.381s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.459s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.520s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.529s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.737s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.192s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.194s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.216s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.217s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.217s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.217s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.247s] -- Found PythonExtra: .so  
+[1.317s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.332s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.332s] -- Added test 'lint_cmake' to check CMake code style
+[1.332s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.333s] -- Added test 'xmllint' to check XML markup files
+[1.335s] -- Configuring done
+[1.355s] -- Generating done
+[1.368s] -- Build files have been written to: /dev_ws/build/ur_commander
+[1.374s] Invoked command in '/dev_ws/build/ur_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/moveit2-introduction/ur_commander -DCMAKE_INSTALL_PREFIX=/dev_ws/install
+[1.375s] Invoking command in '/dev_ws/build/ur_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/ur_commander -- -j20 -l20
+[1.444s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.453s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.461s] [  6%] Built target ament_cmake_python_copy_ur_commander
+[1.614s] running egg_info
+[1.614s] creating ur_commander.egg-info
+[1.615s] writing ur_commander.egg-info/PKG-INFO
+[1.615s] writing dependency_links to ur_commander.egg-info/dependency_links.txt
+[1.615s] writing top-level names to ur_commander.egg-info/top_level.txt
+[1.615s] writing manifest file 'ur_commander.egg-info/SOURCES.txt'
+[1.616s] reading manifest file 'ur_commander.egg-info/SOURCES.txt'
+[1.616s] writing manifest file 'ur_commander.egg-info/SOURCES.txt'
+[1.625s] [  6%] Built target ur_commander__cpp
+[1.631s] [  9%] [32mBuilding C object CMakeFiles/ur_commander__rosidl_generator_c.dir/rosidl_generator_c/ur_commander/srv/detail/visualize_poses__functions.c.o[0m
+[1.633s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.633s] [ 12%] Built target ament_cmake_python_build_ur_commander_egg
+[1.634s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.635s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.675s] [ 22%] [32m[1mLinking C shared library libur_commander__rosidl_generator_c.so[0m
+[1.710s] [ 22%] Built target ur_commander__rosidl_generator_c
+[1.718s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.720s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.721s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.793s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_commander__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_commander/srv/visualize_poses__type_support.cpp.o[0m
+[1.806s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_commander__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_commander/srv/detail/visualize_poses__type_support.cpp.o[0m
+[1.822s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_commander__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_commander/srv/detail/dds_fastrtps/visualize_poses__type_support.cpp.o[0m
+[1.901s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_commander__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_commander/srv/visualize_poses__type_support.cpp.o[0m
+[1.928s] [ 48%] [32mBuilding C object CMakeFiles/ur_commander__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_commander/srv/detail/visualize_poses__type_support.c.o[0m
+[1.931s] [ 51%] [32m[1mLinking CXX shared library libur_commander__rosidl_typesupport_c.so[0m
+[1.938s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_commander__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_commander/srv/detail/visualize_poses__type_support_c.cpp.o[0m
+[1.965s] [ 58%] [32m[1mLinking C shared library libur_commander__rosidl_typesupport_introspection_c.so[0m
+[1.970s] [ 58%] Built target ur_commander__rosidl_typesupport_c
+[2.000s] [ 58%] Built target ur_commander__rosidl_typesupport_introspection_c
+[2.008s] [ 61%] [32m[1mLinking CXX shared library libur_commander__rosidl_typesupport_cpp.so[0m
+[2.041s] [ 61%] Built target ur_commander__rosidl_typesupport_cpp
+[2.105s] [ 64%] [32m[1mLinking CXX shared library libur_commander__rosidl_typesupport_introspection_cpp.so[0m
+[2.142s] [ 67%] [32m[1mLinking CXX shared library libur_commander__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.158s] [ 67%] Built target ur_commander__rosidl_typesupport_introspection_cpp
+[2.171s] [ 70%] [32m[1mLinking CXX shared library libur_commander__rosidl_typesupport_fastrtps_c.so[0m
+[2.204s] [ 70%] Built target ur_commander__rosidl_typesupport_fastrtps_cpp
+[2.227s] [ 70%] Built target ur_commander__rosidl_typesupport_fastrtps_c
+[2.242s] [ 70%] Built target ur_commander
+[2.266s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.489s] [ 74%] Built target ur_commander__py
+[2.508s] [ 77%] [32mBuilding C object CMakeFiles/ur_commander__rosidl_generator_py.dir/rosidl_generator_py/ur_commander/srv/_visualize_poses_s.c.o[0m
+[2.589s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ur_commander/libur_commander__rosidl_generator_py.so[0m
+[2.635s] [ 80%] Built target ur_commander__rosidl_generator_py
+[2.653s] [ 87%] [32mBuilding C object CMakeFiles/ur_commander__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_commander/_ur_commander_s.ep.rosidl_typesupport_c.c.o[0m
+[2.653s] [ 87%] [32mBuilding C object CMakeFiles/ur_commander__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_commander/_ur_commander_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.654s] [ 90%] [32mBuilding C object CMakeFiles/ur_commander__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_commander/_ur_commander_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.723s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_commander/ur_commander_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.723s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_commander/ur_commander_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.725s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_commander/ur_commander_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.756s] [100%] Built target ur_commander__rosidl_typesupport_introspection_c__pyext
+[2.758s] [100%] Built target ur_commander__rosidl_typesupport_fastrtps_c__pyext
+[2.760s] [100%] Built target ur_commander__rosidl_typesupport_c__pyext
+[2.767s] Invoked command in '/dev_ws/build/ur_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/ur_commander -- -j20 -l20
+[2.769s] Invoking command in '/dev_ws/build/ur_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/ur_commander
+[2.775s] -- Install configuration: ""
+[2.776s] -- Installing: /dev_ws/install/share/ament_index/resource_index/rosidl_interfaces/ur_commander
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/msg
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/msg/rosidl_generator_c__visibility_control.h
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/visualize_poses.h
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__type_support.h
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__functions.c
+[2.776s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__functions.h
+[2.777s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__struct.h
+[2.777s] -- Installing: /dev_ws/install/share/ur_commander/environment/library_path.sh
+[2.777s] -- Installing: /dev_ws/install/share/ur_commander/environment/library_path.dsv
+[2.777s] -- Installing: /dev_ws/install/lib/libur_commander__rosidl_generator_c.so
+[2.777s] -- Set runtime path of "/dev_ws/install/lib/libur_commander__rosidl_generator_c.so" to ""
+[2.777s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander
+[2.777s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/msg
+[2.777s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.777s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv
+[2.778s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv/detail
+[2.778s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__rosidl_typesupport_fastrtps_c.h
+[2.778s] -- Installing: /dev_ws/install/lib/libur_commander__rosidl_typesupport_fastrtps_c.so
+[2.778s] -- Set runtime path of "/dev_ws/install/lib/libur_commander__rosidl_typesupport_fastrtps_c.so" to ""
+[2.778s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander
+[2.778s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/msg
+[2.778s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.778s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv
+[2.778s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv/detail
+[2.778s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__type_support.c
+[2.778s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__rosidl_typesupport_introspection_c.h
+[2.778s] -- Installing: /dev_ws/install/lib/libur_commander__rosidl_typesupport_introspection_c.so
+[2.779s] -- Set runtime path of "/dev_ws/install/lib/libur_commander__rosidl_typesupport_introspection_c.so" to ""
+[2.779s] -- Installing: /dev_ws/install/lib/libur_commander__rosidl_typesupport_c.so
+[2.779s] -- Set runtime path of "/dev_ws/install/lib/libur_commander__rosidl_typesupport_c.so" to ""
+[2.779s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander
+[2.779s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/msg
+[2.779s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.779s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv
+[2.780s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv/detail
+[2.780s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__struct.hpp
+[2.780s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__builder.hpp
+[2.780s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__traits.hpp
+[2.780s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__type_support.hpp
+[2.780s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/visualize_poses.hpp
+[2.780s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander
+[2.780s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/msg
+[2.780s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.780s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv
+[2.780s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv/detail
+[2.780s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[2.780s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/dds_fastrtps
+[2.781s] -- Installing: /dev_ws/install/lib/libur_commander__rosidl_typesupport_fastrtps_cpp.so
+[2.781s] -- Set runtime path of "/dev_ws/install/lib/libur_commander__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.781s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander
+[2.781s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv
+[2.781s] -- Up-to-date: /dev_ws/install/include/ur_commander/ur_commander/srv/detail
+[2.781s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__type_support.cpp
+[2.781s] -- Installing: /dev_ws/install/include/ur_commander/ur_commander/srv/detail/visualize_poses__rosidl_typesupport_introspection_cpp.hpp
+[2.781s] -- Installing: /dev_ws/install/lib/libur_commander__rosidl_typesupport_introspection_cpp.so
+[2.782s] -- Set runtime path of "/dev_ws/install/lib/libur_commander__rosidl_typesupport_introspection_cpp.so" to ""
+[2.782s] -- Installing: /dev_ws/install/lib/libur_commander__rosidl_typesupport_cpp.so
+[2.782s] -- Set runtime path of "/dev_ws/install/lib/libur_commander__rosidl_typesupport_cpp.so" to ""
+[2.782s] -- Installing: /dev_ws/install/share/ur_commander/environment/pythonpath.sh
+[2.782s] -- Installing: /dev_ws/install/share/ur_commander/environment/pythonpath.dsv
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander-0.0.0-py3.10.egg-info
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander-0.0.0-py3.10.egg-info/top_level.txt
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander-0.0.0-py3.10.egg-info/PKG-INFO
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/_ur_commander_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/_ur_commander_s.ep.rosidl_typesupport_c.c
+[2.783s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.784s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.784s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/_ur_commander_s.ep.rosidl_typesupport_introspection_c.c
+[2.784s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/srv
+[2.784s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/srv/_visualize_poses_s.c
+[2.784s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/srv/_visualize_poses.py
+[2.784s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/srv/__init__.py
+[2.784s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/libur_commander__rosidl_generator_py.so
+[2.784s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/__init__.py
+[2.814s] Listing '/dev_ws/install/local/lib/python3.10/dist-packages/ur_commander'...
+[2.814s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/__init__.py'...
+[2.814s] Listing '/dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/srv'...
+[2.814s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/srv/__init__.py'...
+[2.814s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/srv/_visualize_poses.py'...
+[2.817s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.817s] -- Set runtime path of "/dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.817s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.817s] -- Set runtime path of "/dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.817s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.817s] -- Set runtime path of "/dev_ws/install/local/lib/python3.10/dist-packages/ur_commander/ur_commander_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.818s] -- Installing: /dev_ws/install/lib/libur_commander__rosidl_generator_py.so
+[2.818s] -- Set runtime path of "/dev_ws/install/lib/libur_commander__rosidl_generator_py.so" to ""
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander/srv/VisualizePoses.idl
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander/srv/VisualizePoses.srv
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander/srv/VisualizePoses_Request.msg
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander/srv/VisualizePoses_Response.msg
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander//launch
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander//launch/iaac_ur10e.launch.py
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander//config
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander//config/rivz2_config.rviz
+[2.818s] -- Installing: /dev_ws/install/lib/ur_commander/visualize_pose_srv.py
+[2.818s] -- Installing: /dev_ws/install/share/ament_index/resource_index/package_run_dependencies/ur_commander
+[2.818s] -- Installing: /dev_ws/install/share/ament_index/resource_index/parent_prefix_path/ur_commander
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander/environment/ament_prefix_path.sh
+[2.818s] -- Installing: /dev_ws/install/share/ur_commander/environment/ament_prefix_path.dsv
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/environment/path.sh
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/environment/path.dsv
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/local_setup.bash
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/local_setup.sh
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/local_setup.zsh
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/local_setup.dsv
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/package.dsv
+[2.819s] -- Installing: /dev_ws/install/share/ament_index/resource_index/packages/ur_commander
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_generator_cExport.cmake
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_generator_cExport-noconfig.cmake
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_typesupport_fastrtps_cExport.cmake
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commander__rosidl_typesupport_introspection_cExport.cmake
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commander__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.819s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commander__rosidl_typesupport_cExport.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commander__rosidl_typesupport_cExport-noconfig.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_generator_cppExport.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commander__rosidl_typesupport_introspection_cppExport.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commander__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commander__rosidl_typesupport_cppExport.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commander__rosidl_typesupport_cppExport-noconfig.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_generator_pyExport.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/export_ur_commander__rosidl_generator_pyExport-noconfig.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/rosidl_cmake-extras.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ament_cmake_export_libraries-extras.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ament_cmake_export_targets-extras.cmake
+[2.820s] -- Installing: /dev_ws/install/share/ur_commander/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.821s] -- Installing: /dev_ws/install/share/ur_commander/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.821s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commanderConfig.cmake
+[2.821s] -- Installing: /dev_ws/install/share/ur_commander/cmake/ur_commanderConfig-version.cmake
+[2.821s] -- Installing: /dev_ws/install/share/ur_commander/package.xml
+[2.822s] Invoked command in '/dev_ws/build/ur_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/ur_commander

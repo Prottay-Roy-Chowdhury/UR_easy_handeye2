@@ -1,0 +1,23 @@
+{
+  "package_name": "easy_handeye2_msgs",
+  "non_idl_tuples": [
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:msg/HandeyeCalibration.msg",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:msg/HandeyeCalibrationParameters.msg",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:msg/Sample.msg",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:msg/SampleList.msg",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:msg/TargetPoseList.msg",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/ListAlgorithms.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/SetAlgorithm.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/ComputeCalibration.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/SaveCalibration.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/RemoveSample.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/TakeSample.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/SaveSamples.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/LoadSamples.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/CheckStartingPose.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/EnumerateTargetPoses.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/SelectTargetPose.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/PlanToSelectedTargetPose.srv",
+    "/dev_ws/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/ExecutePlan.srv"
+  ]
+}

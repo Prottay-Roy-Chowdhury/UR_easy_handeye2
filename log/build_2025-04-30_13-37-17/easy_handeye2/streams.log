@@ -1,0 +1,98 @@
+[0.412s] Invoking command in '/dev_ws/src/easy_handeye2/easy_handeye2': PYTHONPATH=/dev_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dev_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /dev_ws/build/easy_handeye2/build install --record /dev_ws/build/easy_handeye2/install.log --single-version-externally-managed install_data
+[0.554s] running egg_info
+[0.554s] creating ../../../build/easy_handeye2/easy_handeye2.egg-info
+[0.554s] writing ../../../build/easy_handeye2/easy_handeye2.egg-info/PKG-INFO
+[0.554s] writing dependency_links to ../../../build/easy_handeye2/easy_handeye2.egg-info/dependency_links.txt
+[0.554s] writing entry points to ../../../build/easy_handeye2/easy_handeye2.egg-info/entry_points.txt
+[0.554s] writing requirements to ../../../build/easy_handeye2/easy_handeye2.egg-info/requires.txt
+[0.554s] writing top-level names to ../../../build/easy_handeye2/easy_handeye2.egg-info/top_level.txt
+[0.554s] writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[0.556s] reading manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[0.556s] writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[0.556s] running build
+[0.556s] running build_py
+[0.556s] creating /dev_ws/build/easy_handeye2/build
+[0.556s] creating /dev_ws/build/easy_handeye2/build/lib
+[0.556s] creating /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_calibration_backend_opencv.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_server.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/common_launch.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_rqt_calibrator.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_rqt_calibrator_widget.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_rqt_evaluator.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_client.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_rqt_evaluator_widget.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_sampler.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_robot.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_calibration_commander.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/__init__.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_calibration.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_server_robot.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] copying easy_handeye2/handeye_publisher.py -> /dev_ws/build/easy_handeye2/build/lib/easy_handeye2
+[0.557s] running build_scripts
+[0.557s] creating /dev_ws/build/easy_handeye2/build/scripts-3.10
+[0.557s] copying and adjusting scripts/rqt_calibrator.py -> /dev_ws/build/easy_handeye2/build/scripts-3.10
+[0.557s] copying and adjusting scripts/rqt_evaluator.py -> /dev_ws/build/easy_handeye2/build/scripts-3.10
+[0.557s] changing mode of /dev_ws/build/easy_handeye2/build/scripts-3.10/rqt_calibrator.py from 644 to 755
+[0.557s] changing mode of /dev_ws/build/easy_handeye2/build/scripts-3.10/rqt_evaluator.py from 644 to 755
+[0.557s] running install
+[0.557s] running install_lib
+[0.558s] creating /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration_backend_opencv.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_server.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/common_launch.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_calibrator.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_calibrator_widget.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_evaluator.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_client.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_evaluator_widget.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_sampler.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_robot.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration_commander.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/__init__.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_server_robot.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.558s] copying /dev_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_publisher.py -> /dev_ws/install/lib/python3.10/site-packages/easy_handeye2
+[0.559s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_calibration_backend_opencv.py to handeye_calibration_backend_opencv.cpython-310.pyc
+[0.560s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_server.py to handeye_server.cpython-310.pyc
+[0.560s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/common_launch.py to common_launch.cpython-310.pyc
+[0.561s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_calibrator.py to handeye_rqt_calibrator.cpython-310.pyc
+[0.561s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_calibrator_widget.py to handeye_rqt_calibrator_widget.cpython-310.pyc
+[0.562s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_evaluator.py to handeye_rqt_evaluator.cpython-310.pyc
+[0.562s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_client.py to handeye_client.cpython-310.pyc
+[0.562s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_evaluator_widget.py to handeye_rqt_evaluator_widget.cpython-310.pyc
+[0.563s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_sampler.py to handeye_sampler.cpython-310.pyc
+[0.564s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_robot.py to handeye_robot.cpython-310.pyc
+[0.565s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_calibration_commander.py to handeye_calibration_commander.cpython-310.pyc
+[0.565s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/__init__.py to __init__.cpython-310.pyc
+[0.566s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_calibration.py to handeye_calibration.cpython-310.pyc
+[0.566s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_server_robot.py to handeye_server_robot.cpython-310.pyc
+[0.566s] byte-compiling /dev_ws/install/lib/python3.10/site-packages/easy_handeye2/handeye_publisher.py to handeye_publisher.cpython-310.pyc
+[0.567s] running install_data
+[0.567s] copying resource/easy_handeye2 -> /dev_ws/install/share/ament_index/resource_index/packages
+[0.567s] creating /dev_ws/install/share/easy_handeye2/resource
+[0.567s] copying resource/rqt_handeye_info.ui -> /dev_ws/install/share/easy_handeye2/resource
+[0.567s] copying resource/rqt_handeye_evaluator.ui -> /dev_ws/install/share/easy_handeye2/resource
+[0.567s] copying resource/rqt_handeye.ui -> /dev_ws/install/share/easy_handeye2/resource
+[0.567s] copying package.xml -> /dev_ws/install/share/easy_handeye2
+[0.567s] copying plugin_evaluator.xml -> /dev_ws/install/share/easy_handeye2
+[0.567s] copying plugin_calibrator.xml -> /dev_ws/install/share/easy_handeye2
+[0.567s] creating /dev_ws/install/share/easy_handeye2/launch
+[0.567s] copying launch/calibrate.launch.py -> /dev_ws/install/share/easy_handeye2/launch
+[0.567s] copying launch/publish.launch.py -> /dev_ws/install/share/easy_handeye2/launch
+[0.567s] copying launch/evaluate.launch.py -> /dev_ws/install/share/easy_handeye2/launch
+[0.567s] copying launch/handeye_calibrate.launch.py -> /dev_ws/install/share/easy_handeye2/launch
+[0.567s] running install_egg_info
+[0.568s] Copying ../../../build/easy_handeye2/easy_handeye2.egg-info to /dev_ws/install/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info
+[0.569s] running install_scripts
+[0.581s] creating /dev_ws/install/lib/easy_handeye2
+[0.581s] copying /dev_ws/build/easy_handeye2/build/scripts-3.10/rqt_calibrator.py -> /dev_ws/install/lib/easy_handeye2
+[0.581s] copying /dev_ws/build/easy_handeye2/build/scripts-3.10/rqt_evaluator.py -> /dev_ws/install/lib/easy_handeye2
+[0.581s] changing mode of /dev_ws/install/lib/easy_handeye2/rqt_calibrator.py to 755
+[0.581s] changing mode of /dev_ws/install/lib/easy_handeye2/rqt_evaluator.py to 755
+[0.582s] Installing handeye_calibration_commander script to /dev_ws/install/lib/easy_handeye2
+[0.582s] Installing handeye_publisher script to /dev_ws/install/lib/easy_handeye2
+[0.582s] Installing handeye_server script to /dev_ws/install/lib/easy_handeye2
+[0.582s] Installing handeye_server_robot script to /dev_ws/install/lib/easy_handeye2
+[0.582s] writing list of installed files to '/dev_ws/build/easy_handeye2/install.log'
+[0.597s] Invoked command in '/dev_ws/src/easy_handeye2/easy_handeye2' returned '0': PYTHONPATH=/dev_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dev_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /dev_ws/build/easy_handeye2/build install --record /dev_ws/build/easy_handeye2/install.log --single-version-externally-managed install_data

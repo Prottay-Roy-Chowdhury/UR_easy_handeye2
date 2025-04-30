@@ -1,0 +1,97 @@
+[0.012s] Invoking command in '/dev_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/moveit2-introduction/pymoveit2 -DCMAKE_INSTALL_PREFIX=/dev_ws/install
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.124s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.278s] -- Detecting CXX compile features
+[0.279s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Configuring done
+[0.609s] -- Generating done
+[0.610s] -- Build files have been written to: /dev_ws/build/pymoveit2
+[0.616s] Invoked command in '/dev_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/moveit2-introduction/pymoveit2 -DCMAKE_INSTALL_PREFIX=/dev_ws/install
+[0.617s] Invoking command in '/dev_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/pymoveit2 -- -j20 -l20
+[0.663s] Built target ament_cmake_python_copy_pymoveit2
+[0.850s] running egg_info
+[0.850s] creating pymoveit2.egg-info
+[0.851s] writing pymoveit2.egg-info/PKG-INFO
+[0.851s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[0.851s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[0.851s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.853s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.853s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.880s] Built target ament_cmake_python_build_pymoveit2_egg
+[0.889s] Invoked command in '/dev_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/pymoveit2 -- -j20 -l20
+[0.890s] Invoking command in '/dev_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/pymoveit2
+[0.896s] -- Install configuration: ""
+[0.897s] -- Installing: /dev_ws/install/share/pymoveit2/environment/pythonpath.sh
+[0.897s] -- Installing: /dev_ws/install/share/pymoveit2/environment/pythonpath.dsv
+[0.897s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info
+[0.897s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/SOURCES.txt
+[0.897s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/dependency_links.txt
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/top_level.txt
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/PKG-INFO
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/__init__.py
+[0.898s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots
+[0.899s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py
+[0.899s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py
+[0.899s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py
+[0.899s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py
+[0.899s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/ur.py
+[0.899s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py
+[0.899s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py
+[0.899s] -- Installing: /dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py
+[0.947s] Listing '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2'...
+[0.947s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/__init__.py'...
+[0.947s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py'...
+[0.947s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py'...
+[0.947s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py'...
+[0.947s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py'...
+[0.947s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py'...
+[0.947s] Listing '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots'...
+[0.947s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py'...
+[0.947s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py'...
+[0.948s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py'...
+[0.948s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py'...
+[0.948s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py'...
+[0.948s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py'...
+[0.948s] Compiling '/dev_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/ur.py'...
+[0.951s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_allow_collisions.py
+[0.951s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_clear_planning_scene.py
+[0.951s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_collision_mesh.py
+[0.952s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_collision_primitive.py
+[0.952s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_fk.py
+[0.952s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_gripper.py
+[0.952s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_ik.py
+[0.952s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_joint_goal.py
+[0.952s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_orientation_path_constraint.py
+[0.952s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_pose_goal.py
+[0.952s] -- Installing: /dev_ws/install/lib/pymoveit2/ex_servo.py
+[0.952s] -- Installing: /dev_ws/install/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[0.952s] -- Installing: /dev_ws/install/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[0.952s] -- Installing: /dev_ws/install/share/pymoveit2/environment/ament_prefix_path.sh
+[0.952s] -- Installing: /dev_ws/install/share/pymoveit2/environment/ament_prefix_path.dsv
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/environment/path.sh
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/environment/path.dsv
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/local_setup.bash
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/local_setup.sh
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/local_setup.zsh
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/local_setup.dsv
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/package.dsv
+[0.953s] -- Installing: /dev_ws/install/share/ament_index/resource_index/packages/pymoveit2
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/cmake/pymoveit2Config.cmake
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[0.953s] -- Installing: /dev_ws/install/share/pymoveit2/package.xml
+[0.955s] Invoked command in '/dev_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/pymoveit2

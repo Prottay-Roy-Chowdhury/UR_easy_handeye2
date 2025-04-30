@@ -1,0 +1,91 @@
+[0.015s] Invoking command in '/dev_ws/build/ur_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PATH=/dev_ws/install/bin:${PATH} PYTHONPATH=/dev_ws/install/lib/python3.10/site-packages:/dev_ws/build/easy_handeye2:/dev_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_INSTALL_PREFIX=/dev_ws/install
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.176s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.291s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.373s] -- Detecting CXX compile features - done
+[0.373s] [0mur_calibration: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.375s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.526s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.590s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.620s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.624s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.630s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.649s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.681s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.683s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.793s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.815s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.849s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.855s] -- Looking for pthread.h
+[0.917s] -- Looking for pthread.h - found
+[0.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.976s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.978s] -- Found Threads: TRUE  
+[1.014s] -- Found ur_robot_driver: 2.2.16 (/dev_ws/install/share/ur_robot_driver/cmake)
+[1.216s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.217s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.217s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.330s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.332s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.336s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.337s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.392s] -- Configuring done
+[1.456s] -- Generating done
+[1.465s] -- Build files have been written to: /dev_ws/build/ur_calibration
+[1.475s] Invoked command in '/dev_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PATH=/dev_ws/install/bin:${PATH} PYTHONPATH=/dev_ws/install/lib/python3.10/site-packages:/dev_ws/build/easy_handeye2:/dev_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_INSTALL_PREFIX=/dev_ws/install
+[1.478s] Invoking command in '/dev_ws/build/ur_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PATH=/dev_ws/install/bin:${PATH} PYTHONPATH=/dev_ws/install/lib/python3.10/site-packages:/dev_ws/build/easy_handeye2:/dev_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /dev_ws/build/ur_calibration -- -j20 -l20
+[1.526s] [ 25%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration_consumer.cpp.o[0m
+[1.526s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.526s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.527s] [ 33%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration.cpp.o[0m
+[1.532s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.648s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.680s] [ 50%] Built target gmock_main
+[7.384s] [ 58%] [32m[1mLinking CXX static library libcalibration.a[0m
+[7.439s] [ 58%] Built target calibration
+[7.459s] [ 66%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration_correction.cpp.o[0m
+[7.995s] [ 75%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.059s] [ 75%] Built target gmock
+[8.078s] [ 83%] [32mBuilding CXX object CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o[0m
+[11.488s] [ 91%] [32m[1mLinking CXX executable calibration_correction[0m
+[11.705s] [ 91%] Built target calibration_correction
+[13.352s] [100%] [32m[1mLinking CXX executable calibration_test[0m
+[13.598s] [100%] Built target calibration_test
+[13.606s] Invoked command in '/dev_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PATH=/dev_ws/install/bin:${PATH} PYTHONPATH=/dev_ws/install/lib/python3.10/site-packages:/dev_ws/build/easy_handeye2:/dev_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /dev_ws/build/ur_calibration -- -j20 -l20
+[13.609s] Invoking command in '/dev_ws/build/ur_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PATH=/dev_ws/install/bin:${PATH} PYTHONPATH=/dev_ws/install/lib/python3.10/site-packages:/dev_ws/build/easy_handeye2:/dev_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /dev_ws/build/ur_calibration
+[13.614s] -- Install configuration: "RelWithDebInfo"
+[13.614s] -- Installing: /dev_ws/install/lib/ur_calibration/calibration_correction
+[13.619s] -- Set runtime path of "/dev_ws/install/lib/ur_calibration/calibration_correction" to ""
+[13.619s] -- Up-to-date: /dev_ws/install/include
+[13.619s] -- Installing: /dev_ws/install/include/ur_calibration
+[13.619s] -- Installing: /dev_ws/install/include/ur_calibration/calibration_consumer.hpp
+[13.619s] -- Installing: /dev_ws/install/include/ur_calibration/calibration.hpp
+[13.619s] -- Installing: /dev_ws/install/share/ur_calibration/launch
+[13.619s] -- Installing: /dev_ws/install/share/ur_calibration/launch/calibration_correction.launch.py
+[13.619s] -- Installing: /dev_ws/install/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[13.619s] -- Installing: /dev_ws/install/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[13.619s] -- Installing: /dev_ws/install/share/ur_calibration/environment/ament_prefix_path.sh
+[13.619s] -- Installing: /dev_ws/install/share/ur_calibration/environment/ament_prefix_path.dsv
+[13.619s] -- Installing: /dev_ws/install/share/ur_calibration/environment/path.sh
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/environment/path.dsv
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/local_setup.bash
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/local_setup.sh
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/local_setup.zsh
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/local_setup.dsv
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/package.dsv
+[13.620s] -- Installing: /dev_ws/install/share/ament_index/resource_index/packages/ur_calibration
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[13.620s] -- Installing: /dev_ws/install/share/ur_calibration/package.xml
+[13.622s] Invoked command in '/dev_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PATH=/dev_ws/install/bin:${PATH} PYTHONPATH=/dev_ws/install/lib/python3.10/site-packages:/dev_ws/build/easy_handeye2:/dev_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /dev_ws/build/ur_calibration

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_commander/srv/VisualizePoses.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module ur_commander {
+  module srv {
+    struct VisualizePoses_Request {
+      string frame_id;
+
+      sequence<geometry_msgs::msg::Pose> poses;
+    };
+    struct VisualizePoses_Response {
+      boolean success;
+    };
+  };
+};

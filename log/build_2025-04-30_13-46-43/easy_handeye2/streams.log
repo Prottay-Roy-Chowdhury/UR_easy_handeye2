@@ -1,0 +1,27 @@
+[0.415s] Invoking command in '/dev_ws/src/easy_handeye2/easy_handeye2': PYTHONPATH=/dev_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dev_ws/install/lib/python3.10/site-packages:/dev_ws/install/lib/python3.10/site-packages:/dev_ws/build/easy_handeye2:/dev_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /dev_ws/build/easy_handeye2/build install --record /dev_ws/build/easy_handeye2/install.log --single-version-externally-managed install_data
+[0.570s] running egg_info
+[0.570s] writing ../../../build/easy_handeye2/easy_handeye2.egg-info/PKG-INFO
+[0.570s] writing dependency_links to ../../../build/easy_handeye2/easy_handeye2.egg-info/dependency_links.txt
+[0.570s] writing entry points to ../../../build/easy_handeye2/easy_handeye2.egg-info/entry_points.txt
+[0.570s] writing requirements to ../../../build/easy_handeye2/easy_handeye2.egg-info/requires.txt
+[0.570s] writing top-level names to ../../../build/easy_handeye2/easy_handeye2.egg-info/top_level.txt
+[0.572s] reading manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[0.572s] writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[0.572s] running build
+[0.572s] running build_py
+[0.573s] running build_scripts
+[0.573s] running install
+[0.573s] running install_lib
+[0.574s] running install_data
+[0.574s] running install_egg_info
+[0.575s] removing '/dev_ws/install/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info' (and everything under it)
+[0.576s] Copying ../../../build/easy_handeye2/easy_handeye2.egg-info to /dev_ws/install/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info
+[0.576s] running install_scripts
+[0.588s] changing mode of /dev_ws/install/lib/easy_handeye2/rqt_calibrator.py to 755
+[0.588s] changing mode of /dev_ws/install/lib/easy_handeye2/rqt_evaluator.py to 755
+[0.589s] Installing handeye_calibration_commander script to /dev_ws/install/lib/easy_handeye2
+[0.589s] Installing handeye_publisher script to /dev_ws/install/lib/easy_handeye2
+[0.589s] Installing handeye_server script to /dev_ws/install/lib/easy_handeye2
+[0.589s] Installing handeye_server_robot script to /dev_ws/install/lib/easy_handeye2
+[0.589s] writing list of installed files to '/dev_ws/build/easy_handeye2/install.log'
+[0.604s] Invoked command in '/dev_ws/src/easy_handeye2/easy_handeye2' returned '0': PYTHONPATH=/dev_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dev_ws/install/lib/python3.10/site-packages:/dev_ws/install/lib/python3.10/site-packages:/dev_ws/build/easy_handeye2:/dev_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /dev_ws/build/easy_handeye2/build install --record /dev_ws/build/easy_handeye2/install.log --single-version-externally-managed install_data

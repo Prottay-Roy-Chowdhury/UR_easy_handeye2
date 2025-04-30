@@ -1,0 +1,19 @@
+{
+  "package_name": "ur_dashboard_msgs",
+  "non_idl_tuples": [
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/ProgramState.msg",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/RobotMode.msg",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/SafetyMode.msg",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/AddToLog.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetLoadedProgram.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetProgramState.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetRobotMode.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetSafetyMode.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramRunning.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramSaved.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Load.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Popup.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/RawRequest.srv",
+    "/dev_ws/src/moveit2-introduction/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:action/SetMode.action"
+  ]
+}

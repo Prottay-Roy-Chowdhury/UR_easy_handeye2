@@ -1,0 +1,6 @@
+{
+  "package_name": "ur_commander",
+  "non_idl_tuples": [
+    "/dev_ws/src/moveit2-introduction/ur_commander:srv/VisualizePoses.srv"
+  ]
+}

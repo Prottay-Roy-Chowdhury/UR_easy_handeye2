@@ -1,0 +1,6 @@
+Invoking command in '/dev_ws/build/ur_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/moveit2-introduction/ur_commander -DCMAKE_INSTALL_PREFIX=/dev_ws/install
+Invoked command in '/dev_ws/build/ur_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/moveit2-introduction/ur_commander -DCMAKE_INSTALL_PREFIX=/dev_ws/install
+Invoking command in '/dev_ws/build/ur_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/ur_commander -- -j20 -l20
+Invoked command in '/dev_ws/build/ur_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/ur_commander -- -j20 -l20
+Invoking command in '/dev_ws/build/ur_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/ur_commander
+Invoked command in '/dev_ws/build/ur_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/ur_commander

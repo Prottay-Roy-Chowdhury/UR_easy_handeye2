@@ -1,0 +1,15 @@
+/dev_ws/install/share/ament_index/resource_index/package_run_dependencies/ur
+/dev_ws/install/share/ament_index/resource_index/parent_prefix_path/ur
+/dev_ws/install/share/ur/environment/ament_prefix_path.sh
+/dev_ws/install/share/ur/environment/ament_prefix_path.dsv
+/dev_ws/install/share/ur/environment/path.sh
+/dev_ws/install/share/ur/environment/path.dsv
+/dev_ws/install/share/ur/local_setup.bash
+/dev_ws/install/share/ur/local_setup.sh
+/dev_ws/install/share/ur/local_setup.zsh
+/dev_ws/install/share/ur/local_setup.dsv
+/dev_ws/install/share/ur/package.dsv
+/dev_ws/install/share/ament_index/resource_index/packages/ur
+/dev_ws/install/share/ur/cmake/urConfig.cmake
+/dev_ws/install/share/ur/cmake/urConfig-version.cmake
+/dev_ws/install/share/ur/package.xml

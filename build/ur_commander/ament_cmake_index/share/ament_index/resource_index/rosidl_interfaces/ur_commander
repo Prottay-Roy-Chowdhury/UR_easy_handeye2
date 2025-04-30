@@ -1,0 +1,4 @@
+srv/VisualizePoses.idl
+srv/VisualizePoses.srv
+srv/VisualizePoses_Request.msg
+srv/VisualizePoses_Response.msg
